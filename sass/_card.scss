@@ -1,0 +1,18 @@
+.card {
+  .btn {
+    color: $white;
+    position: relative;
+    width: 100%;
+    border: none;
+  }
+  .btn:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 100%;
+    background-color: $secondary;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+}

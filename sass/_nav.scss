@@ -1,0 +1,32 @@
+.navbar {
+  background-color: $grey !important;
+
+  .nav-link {
+    color: $black !important;
+    padding: 4px;
+    border-radius: 3px;
+  }
+  .nav-item {
+    border-radius: 3px;
+    margin: 0.5em;
+  }
+  .nav-item:hover {
+    background-color: $white;
+  }
+  .active {
+    background-color: white;
+  }
+  .form-control {
+    margin-right: 0 !important;
+    border-radius: 3px 0 0 3px;
+  }
+  .btn {
+    border-radius: 0px 3px 3px 0;
+    background-color: $primary;
+    border: none;
+    color: $white;
+  }
+  .btn:hover {
+    background: darken($primary, 10%);
+  }
+}

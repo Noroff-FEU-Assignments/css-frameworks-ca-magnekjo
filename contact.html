@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>The YAY Company | Contact</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">The YAY Company</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Go</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container form-container">
+      <div class="row contact-group">
+        <div class="col-md-6">
+          <h1>Submit your details</h1>
+          <form>
+            <div class="form-group col">
+              <label for="text" class="col-4 col-form-label">Name</label>
+              <div class="input-group">
+                <input id="text" name="name" type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group col">
+              <label for="text1" class="col-4 col-form-label">Email</label>
+              <div>
+                <input
+                  id="text1"
+                  name="text1"
+                  type="email"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="form-group col">
+              <label for="text2" class="col-4 col-form-label">Website</label>
+              <div class="website-block">
+                <div class="website-block__prefix">https://</div>
+                <input
+                  id="text2"
+                  name="website"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="form-group col">
+              <label for="textarea" class="col-4 col-form-label">Message</label>
+              <div>
+                <textarea
+                  id="textarea"
+                  name="textarea"
+                  cols="40"
+                  rows="5"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group row radial-group">
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check-outlined"
+                  autocomplete="off"
+                />
+                <label
+                  class="btn btn-outline-primary"
+                  for="btn-check-outlined"
+                ></label>
+                <label class="box-label"
+                  >Allow us to sell your personal information to whomever we
+                  want</label
+                >
+              </div>
+            </div>
+            <div class="form-group col submit-group">
+              <div>
+                <button name="submit" type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 contact-info">
+          <div>
+            <i class="fas fa-envelope"></i>
+            <p>hello@yay.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <p>123 456 7890</p>
+          </div>
+          <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <p>123 Some street<br />Somewhere<br />Some City<br />10000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.vimeo.com/" target="_blank"
+          ><i class="fab fa-vimeo-v"></i
+        ></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+      <p>hello@yay.com</p>
+      <p>Copyright 2020</p>
+    </footer>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7dfec7dbb2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
